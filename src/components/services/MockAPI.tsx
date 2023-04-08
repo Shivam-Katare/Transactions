@@ -552,9 +552,7 @@ const data: Transaction[] = [
     type: "FIAT_DEPOSIT",
     status: "ALLOW",
   }
-
-
-  // add more transaction objects here...
+  
 ];
 type SortingParams = {
   sortBy: keyof Transaction;
